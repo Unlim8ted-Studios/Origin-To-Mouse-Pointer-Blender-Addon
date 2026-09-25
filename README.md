@@ -1,7 +1,5 @@
 # Origin To Mouse Pointer (Blender Add-on)
-
-![Add-on Downloads:](https://img.shields.io/github/downloads/Unlim8ted-Studios/Origin-To-Mouse-Pointer-Blender-Addon/total)
-
+![Add-on Download Count](https://img.shields.io/github/downloads/Unlim8ted-Studios/Origin-To-Mouse-Pointer-Blender-Addon/total?label=Add-on%20Downloads)
 ---
 
 ## Overview
