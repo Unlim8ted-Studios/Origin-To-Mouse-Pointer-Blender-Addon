@@ -11,7 +11,7 @@ This add-on makes changing an objects origin in Blender quick and easy. Normally
 
 1. Navigate to the releases tab:
    - Click on the latest release
-   - Click the link title **Origin-To-Mouse-Pointer.zip**
+   - Click the link titled **Origin-To-Mouse-Pointer.zip** to download the add-on.
 
 2. Open Blender.
 
@@ -26,7 +26,7 @@ This add-on makes changing an objects origin in Blender quick and easy. Normally
 After installation, the hotkey can be configured in the add-on tab where it was enabled.
 
 ## Usage
-Once enabled, simply select an object, move your cursor, and press the hotkey chosen (by default u). The selected objects origin will jump to your cursor with the same logic as the world cursor placement.
+Once enabled, simply select an object, move your cursor, and press the hotkey chosen (by default U if available). The selected objects origin will jump to your cursor with the same logic as the world cursor placement.
 
 
 ## Compatibility
