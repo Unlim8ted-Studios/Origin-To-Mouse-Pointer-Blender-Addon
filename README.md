@@ -25,7 +25,7 @@ This add-on makes changing an objects origin in Blender quick and easy. Normally
 
 After installation, the hotkey can be configured in the add-on tab where it was enabled.
 
-##Usage
+## Usage
 Once enabled, simply select an object, move your cursor, and press the hotkey chosen (by default u). The selected objects origin will jump to your cursor with the same logic as the world cursor placement.
 
 
