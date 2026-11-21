@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Origin to Mouse Pointer — Blender Extension</title>
+  <desc id="desc">Minimal vector mark with a 3D cube, object origin, and cursor indicating placement at a point under the mouse.</desc>
+  <defs>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4B6170"/>
+      <stop offset="1" stop-color="#364955"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur stdDeviation="19"/>
+    </filter>
+  </defs>
+
+  <!-- Base and modest accent grid: entirely vector, with generous blank space. -->
+  <!-- Cube silhouette: clear flat polygonal construction. -->
+  <ellipse cx="961" cy="657" rx="235" ry="34" fill="#000000" opacity="0.22" filter="url(#softShadow)"/>
+  <g stroke="#617483" stroke-width="4" stroke-linejoin="round">
+    <path d="M960 228 L1149 335 L960 442 L771 335 Z" fill="url(#cubeTop)"/>
+    <path d="M771 335 L960 442 L960 660 L771 553 Z" fill="#263642"/>
+    <path d="M1149 335 L960 442 L960 660 L1149 553 Z" fill="#344653"/>
+  </g>
+  <path d="M960 442 V659" stroke="#6B8190" stroke-width="3" opacity="0.65"/>
+
+  <!-- Axis mark is intentionally simplified for icon-scale readability. -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M960 504 L960 214" stroke="#58C788" stroke-width="17"/>
+    <path d="M960 504 L1211 649" stroke="#F16B6B" stroke-width="17"/>
+    <path d="M960 504 L709 649" stroke="#479FF0" stroke-width="17"/>
+  </g>
+  <path d="M960 188 L934 226 H986 Z" fill="#58C788"/>
+  <path d="M1234 662 L1183 657 L1208 613 Z" fill="#F16B6B"/>
+  <path d="M686 662 L737 657 L712 613 Z" fill="#479FF0"/>
+
+  <!-- Ring and click point are separate editable vector objects. -->
+  <circle cx="960" cy="504" r="88" fill="none" stroke="#F2F5F7" stroke-width="12" stroke-dasharray="104 34" opacity="0.95"/>
+  <circle cx="960" cy="504" r="27" fill="#FDBB52" stroke="#12212A" stroke-width="6"/>
+
+  <!-- Familiar mouse pointer silhouette with dark outline; tip lands on origin. -->
+  <path d="M972 516 L990 668 L1024 627 L1067 710 L1111 688 L1069 606 L1123 605 Z" fill="#F7FAFC" stroke="#141B22" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- Typographic lockup. -->
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="960" y="845" fill="#F7FAFC" font-weight="750" font-size="88" letter-spacing="-3">Origin to Mouse Pointer</text>
+    <text x="960" y="916" fill="#AAB5C0" font-weight="400" font-size="32">Set selected object origins to the point under the mouse</text>
+  </g>
+  <rect x="838" y="968" width="244" height="4" rx="2" fill="#F0AD4E" opacity="0.88"/>
+</svg>
